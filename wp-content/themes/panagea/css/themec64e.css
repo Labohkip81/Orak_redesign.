@@ -48,7 +48,7 @@
 
     .main-menu>div>ul>li>a {
         font-family: Poppins, Helvetica, sans-serif;
-        color: #fff;
+        color: #000;
         padding: 0 8px 15px 8px;
         font-size: 14px;
         font-size: 0.875rem;
@@ -811,7 +811,8 @@ a.btn_map_in:hover,
 }
 
 header {
-    position: fixed;
+    position: sticky;
+    background: #E0E1E3;
     left: 0;
     top: 0;
     width: 100%;
@@ -845,7 +846,6 @@ header.header.sticky {
     border-bottom: 1px solid #ededed;
     background-color: #E0E1E3
     ;
-    padding: 15px 20px
 }
 
 @media (max-width:991px) {
@@ -2538,7 +2538,7 @@ video {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0
+    top: 2px;
 }
 
 .hero_single.start_bg_zoom .bg-wrapper .effect-bg {
