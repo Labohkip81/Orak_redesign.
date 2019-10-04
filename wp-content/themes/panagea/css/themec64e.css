@@ -57,7 +57,7 @@
 
     .main-menu>div>ul>li>a:hover {
         opacity: 0.7;
-        color: #fff
+        color: 		#074631;
     }
 
     header.sticky .main-menu>div>ul>li>a {
@@ -148,6 +148,7 @@
 
     .main-menu ul li:hover>ul {
         padding: 0;
+        color: 		#074631;
         visibility: visible;
         opacity: 1;
         -webkit-transform: scale(1);
@@ -177,7 +178,7 @@
     }
 
     .main-menu ul ul li>a:hover {
-        color: #fc5b62;
+        color: 	#074631;
         padding-left: 18px
     }
 }
